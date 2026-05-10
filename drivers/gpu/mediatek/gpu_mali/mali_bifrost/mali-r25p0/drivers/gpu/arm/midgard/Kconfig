@@ -69,7 +69,7 @@ config MALI_DEVFREQ
 config MALI_DMA_FENCE
 	bool "DMA_BUF fence support for Mali"
 	depends on MALI_MIDGARD
-	default n
+	default y
 	help
 	  Support DMA_BUF fences for Mali.
 
